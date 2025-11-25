@@ -183,7 +183,7 @@ https://github.com/user-attachments/assets/6bb86645-f6a8-4607-81a3-de996a06bcbd
 
 # Vérifier que la base de données est créée
 docker exec mysql-db mysql -u root -p1234 -e "SHOW DATABASES;"
-
+```
 # Résultat attendu :
 # +--------------------+
 # | Database           |
@@ -194,7 +194,7 @@ docker exec mysql-db mysql -u root -p1234 -e "SHOW DATABASES;"
 # | performance_schema |
 # | sys                |
 # +--------------------+
-
+```
 
 ### ✅ Test 4 : Vérification des logs
 
@@ -289,3 +289,4 @@ docker-compose down -v
 ```
 
 AICHA BARAHOU
+
